@@ -38,6 +38,6 @@ def home():
     
     return render_template('frontend.html', ip_address=user_ip)
 if __name__ == "__main__":
-    website_url = 'not-a-suspicous-link:5000'
-    app.config['SERVER_NAME'] = website_url
+    #website_url = 'not-a-suspicous-link:5000'
+    #app.config['SERVER_NAME'] = website_url
     app.run(debug=True, host='0.0.0.0')
