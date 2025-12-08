@@ -1,0 +1,2 @@
+discord_bot/ipscraping_website/ips.db
+*.db # Ignore all .db files
